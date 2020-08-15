@@ -1,0 +1,43 @@
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: 45px 0px 0px 0px;
+	&__column {
+		display: flex;
+	}
+
+	&__logo {
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 22px;
+		color: #000000;
+		text-transform: capitalize;
+	}
+}
+.header-menu {
+	
+	&__link {
+		font-size: 20px;
+		line-height: 22px;
+		letter-spacing: 1px;
+		font-weight: 600;
+		padding: 0px 36px 0px 0px;
+		color: #000000;
+	}
+}
+.header-menu-list {
+	display: flex;
+}
+.header-search {
+
+	&__link {
+		display: block;
+		height: 19px;
+		width: 19px;
+		background: url(../img/search.png) no-repeat;
+	}
+}
