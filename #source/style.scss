@@ -2,8 +2,82 @@
 
 //Шрифты
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+.ibg img{
+	display: none;
+}
+.ibg{
+	background-size: cover;
+}
 @import "_header";
+
+.title__image{
+	// padding-top: 55.25%;
+}
+.title {
+	background: url('../img/banner-block/01.jpg') center center no-repeat;
+	background-size: cover;
+	min-height: 88vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+
+	&__title {
+		font-size: 60px;
+		letter-spacing: 3px;
+		font-weight: 600;
+		color: #ffffff;
+		padding: 0px 0px 30px 0px;
+
+	}
+
+	&__text {
+		font-size: 22px;
+		line-height: 22px;
+		letter-spacing: 1.1px;
+		color: #ffffff;
+		padding: 0px 0px 136px 0px;
+	}
+}
+
+.title-buttons {
+
+	&__item {
+		&:first-child{
+			margin: 0px 25px 0px 0px;
+		}
+	}
+}
+.btn {
+	font-family: Roboto;
+	font-size: 20px;
+	letter-spacing: 1.1px;
+	line-height: 22px;
+	color: #ffffff;
+	padding: 20px 32px;
+	text-transform: uppercase;
+}
+.btn--transparent {
+	border: 3px solid #ffffff;
+}
+.btn--colored {
+	background-color: #00897b;
+	border: 3px solid #00897b;
+}
+.title-down-bar {
+	&__link {
+		position: absolute;
+		bottom: 70px;
+		background: url('/img/banner-block/arrow.png');
+		width: 23px;
+		height: 15px;
+		display: block;
+	}
+}
+

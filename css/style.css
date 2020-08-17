@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -79,6 +79,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.ibg img {
+  display: none;
+}
+
+.ibg {
+  background-size: cover;
+}
+
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
@@ -91,7 +99,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 45px 0px 0px 0px;
+  margin: 45px 0px 55px 0px;
 }
 
 .header__column {
@@ -128,4 +136,74 @@ body {
   height: 19px;
   width: 19px;
   background: url(../img/search.png) no-repeat;
+}
+
+.title {
+  background: url("../img/banner-block/01.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 88vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.title__title {
+  font-size: 60px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 0px 0px 30px 0px;
+}
+
+.title__text {
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1.1px;
+  color: #ffffff;
+  padding: 0px 0px 136px 0px;
+}
+
+.title-buttons__item:first-child {
+  margin: 0px 25px 0px 0px;
+}
+
+.btn {
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 20px 32px;
+  text-transform: uppercase;
+}
+
+.btn--transparent {
+  border: 3px solid #ffffff;
+}
+
+.btn--colored {
+  background-color: #00897b;
+  border: 3px solid #00897b;
+}
+
+.title-down-bar__link {
+  position: absolute;
+  bottom: 70px;
+  background: url("/img/banner-block/arrow.png");
+  width: 23px;
+  height: 15px;
+  display: block;
 }
