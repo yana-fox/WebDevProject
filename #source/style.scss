@@ -14,6 +14,8 @@ body{
 }
 @import "_header";
 
+	
+
 .title {
 	background: url('../img/banner-block/01.jpg') center center no-repeat;
 	background-size: cover;
@@ -26,6 +28,7 @@ body{
 	flex-wrap: wrap;
 	text-align: center;
 	margin: 0px 0px 122px 0px;
+
 
 	&__title {
 		font-size: 60px;
@@ -78,6 +81,7 @@ body{
 		display: block;
 	}
 }
+
 
 
 //Стили для блока About
@@ -135,5 +139,3 @@ body{
 		hyphens: auto;
 	}
 }
-
-
