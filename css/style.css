@@ -141,6 +141,7 @@ body {
 .title {
   background: url("../img/banner-block/01.jpg") center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 88vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,6 +159,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
+  margin: 0px 0px 122px 0px;
 }
 
 .title__title {
@@ -206,4 +208,79 @@ body {
   width: 23px;
   height: 15px;
   display: block;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  padding: 0px 0px 27px 0px;
+  text-transform: capitalize;
+}
+
+.about__text {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  display: inline-block;
+  max-width: 640px;
+  padding: 0px 0px 124px 0px;
+}
+
+.about-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 0px 125px 0px;
+  padding: 0px 70px;
+}
+
+.about-list__icon {
+  padding: 0px 0px 35px 0px;
+}
+
+.about-list__title {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  padding: 0px 0px 17px 0px;
+  text-transform: capitalize;
+}
+
+.about-list__text {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  max-width: 290px;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
